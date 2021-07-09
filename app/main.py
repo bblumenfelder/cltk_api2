@@ -3,7 +3,7 @@ from flask import Flask
 app = Flask(__name__)
 
 
-@app.route("/")
+@app.route("/test")
 def hello():
     return "Hello World from Flask in a uWSGI Nginx Docker container with \
      Python 3.8 (from the example template)"
